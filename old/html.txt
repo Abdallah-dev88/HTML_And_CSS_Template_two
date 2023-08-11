@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Render Elements With Normalize File-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="image/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <nav>
+                <div class="links">
+                    <ul>
+                        <li><a href="#" class="active">home</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">pricing</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Land -->
+    <div class="land">
+    <div class="overlay">
+        <div class="text">
+            <div class="content">
+                <h2>
+                hello world <br>
+                we are kasper,we make art.
+                </h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, 
+                    eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at 
+                    sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+        </div>
+        <div class="circle">
+            <span></span>
+            <span class="half"></span>
+            <span></span>
+        </div>
+        <div class="arrows">
+            <i class="fa-solid fa-angle-left icon-left fa-2xl"></i>
+            <i class="fa-solid fa-angle-right icon-right fa-2xl"></i>
+        </div>
+    </div>
+    </div>
+    <!-- End Land -->
+
+    <!-- Start Services -->
+    <div class="services">
+        <div class="container">
+            <div class="main-content">
+                <h2>services</h2>
+                <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Minima, ab? <br>
+                Lorem ipsum dolor sit amet consectetur  
+                </p>
+            </div>
+            <div class="our-services">
+                    <div class="serv">
+                        <i class="fa-solid fa-display fa-xl"></i>
+                        <div class="text">
+                            <h3>vorem amet intuitive</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eum deserunt mollitia possimus officia? Consequuntur
+                             sunt cum sed, ut a obcaecati!</p>
+                        </div>
+                    </div>
+                    <div class="serv">
+                        <i class="fa-solid fa-gear fa-xl"></i>
+                        <div class="text">
+                            <h3>vorem amet intuitive</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eum deserunt mollitia possimus officia? Consequuntur
+                             sunt cum sed, ut a obcaecati!</p>
+                        </div>
+                    </div>
+
+                    <div class="serv">
+                        <i class="fa-solid fa-pen-ruler fa-xl"></i>
+                        <div class="text">
+                            <h3>vorem amet intuitive</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eum deserunt mollitia possimus officia? Consequuntur
+                             sunt cum sed, ut a obcaecati!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="serv">
+
+                        <i class="fa-solid fa-camera fa-xl"></i>
+                        <div class="text">
+                            <h3>vorem amet intuitive</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Eum deserunt mollitia possimus officia? Consequuntur
+                             sunt cum sed, ut a obcaecati!</p>
+                        </div>
+                    </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+    <!-- End Servicea -->
+</body>
+</html>
